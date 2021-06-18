@@ -1,0 +1,24 @@
+/*定义分页样式*/
+.layuipage{display:inline-block;padding-left:0;margin:0 0 10px;border-radius:0}
+.layuipage>li{display:inline}
+.layuipage>li>a,.layuipage>li>span{position:relative;float:left;padding:6px 9pt;margin-left:-1px;line-height:1.42857143;color:#337ab7;text-decoration:none;background-color:#fff;border:1px solid #ddd}
+.layuipage>li:first-child>a,.layuipage>li:first-child>span{margin-left:0}
+.layuipage>li>a:focus,.layuipage>li>a:hover,.layuipage>li>span:focus,.layuipage>li>span:hover{z-index:2;color:#23527c;background-color:#eee;border-color:#ddd}
+.layuipage>.active>a,.layuipage>.active>a:focus,.layuipage>.active>a:hover,.layuipage>.active>span,.layuipage>.active>span:focus,.layuipage>.active>span:hover{z-index:3;color:#fff;cursor:default;background-color:#1e9fff;border-color:#1e9fff}
+.layuipage>.disabled>a,.layuipage>.disabled>a:focus,.layuipage>.disabled>a:hover,.layuipage>.disabled>span,.layuipage>.disabled>span:focus,.layuipage>.disabled>span:hover{color:#777;cursor:not-allowed;background-color:#fff;border-color:#ddd}
+
+
+.pull-right {float: right}
+.pace .pace-progress {
+	background: #1E92FB; /*进度条颜色*/
+	height: 3px;
+}
+.pace .pace-progress-inner {
+	box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+}
+.pace .pace-activity {
+	border-top-color: #1E92FB;    /*上边框颜色*/
+	border-left-color: #1E92FB;    /*左边框颜色*/
+}
+
+.has-error .help-block{color: #c00!important;}
